@@ -1,44 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keripik Tempe Cak Mul</title>
+    <title>Kripik Tempe Cak Mul</title>
+    <link rel="stylesheet" href="Style/main.css">
 </head>
-<body bgcolor="pink">
-    
-<div class="container">
+<body>
 
-    <aside class="sidebar">
-        <h2 class="brand-title">Keripik Tempe Cak Mul</h2>
-        <ul class="nav-menu">
-            <li class="nav-item active">
-                <a href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="our flavour.html">Our Flavour</a>
-            </li>
-            <li class="nav-item">
-                <a href="Order.html">Order List</a>
-            </li>
-            <li class="nav-item ">
-                <a href="compare.html">Compare Product</a>
-            </li>
-            <li class="nav-item">
-                <a href="store profil.html">Our Fkavour</a>
-            </li>
-            <li class="nav-item">
-                <a href="vission and mission.html">Vission and Mission</a>
-            </li>
-            <li class="nav-item">
-                <a href="customer review.html">Customer Review</a>
-            </li>
-            <li>
-                <a href="setting.html">Setting</a>
-            </li>
-        </ul>
-    </aside>
-</div>
+    <div class="container">
+
+        <!-- 1. SIDEBAR KIRI -->
+        </aside> <aside class="sidebar">
+            <h1 class="brand-title">Keripik Tempe Cak Mul</h1>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html">
+                        <span class="icon">🏠</span> Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="our flavour.html">
+                        <span class="icon">🔍</span> Our Flavour
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="order.html">
+                        <span class="icon">📋</span> Order List
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="compare.html">
+                        <span class="icon">⚖️</span> Compare Product
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="store profile.html">
+                        <span class="icon">🏪</span> Store Profile
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="vission and mission.html">
+                        <span class="icon">🎯</span> Vission & Mission
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a href="customer review.html">
+                        <span class="icon">😊</span> Customer Review
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="setting.html">
+                        <span class="icon">⚙️</span> Setting
+                    </a>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- 2. KONTEN UTAMA KANAN -->
+        <main class="main-content">
+            
+            <!-- Judul Banner Halaman -->
+            <div class="banner-title">
+                Customer Review
+            </div>
+
+            <!-- Daftar Kotak Ulasan Pelanggan -->
+            <div class="reviews-container">
+
+                <!-- Kartu Ulasan 1 -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="customer-name">Budi Santoso</span>
+                        <span class="stars">⭐⭐⭐⭐⭐</span>
+                    </div>
+                    <p class="review-text">"Keripik tempenya renyah banget! Bumbu daun jeruknya kerasa pas dan nggak bikin seret di tenggorokan. Fix bakal order lagi buat camilan keluarga."</p>
+                </div>
+
+                <!-- Kartu Ulasan 2 -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="customer-name">Siti Rahma</span>
+                        <span class="stars">⭐⭐⭐⭐⭐</span>
+                    </div>
+                    <p class="review-text">"Suka banget sama varian pedasnya, beneran nagih. Kemasannya juga rapi dan kedap udara, jadi pas sampai rumah keripiknya masih utuh nggak hancur."</p>
+                </div>
+
+                <!-- Kartu Ulasan 3 -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="customer-name">Andi Wijaya</span>
+                        <span class="stars">⭐⭐⭐⭐</span>
+                    </div>
+                    <p class="review-text">"Rasa originalnya gurih mantap, cocok banget buat teman makan bakso atau soto. Pengiriman cepat, respon penjualnya juga ramah."</p>
+                </div> 
+
+            </div>
+
+            <!-- AREA FORM UNTUK MENULIS ULASAN BARU -->
+            <form class="add-review-form" style="background-color: #ffffff; padding: 25px; border-radius: 15px; margin-top: 35px; width: 85%; box-shadow: 0 4px 10px rgba(0,0,0,0.05); border: 1px solid #e6dab8;">
+                
+                <h3 style="color: #5c3a21; margin-bottom: 15px; font-size: 18px;">✍️ Tulis Ulasan Kamu</h3>
+                
+                <!-- Kolom Input untuk Nama Pelanggan -->
+                <div style="margin-bottom: 15px;">
+                    <label style="display: block; color: #5c3a21; font-weight: bold; font-size: 14px; margin-bottom: 5px;">Pelanggan:</label>
+                    <input type="text" placeholder="Masukkan nama kamu..." style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #e6dab8; background-color: #fcf8f2; font-size: 14px; color: #5c3a21; outline: none;">
+                </div>
+
+                <!-- Kolom Textarea untuk Isi Ulasan -->
+                <div style="margin-bottom: 20px;">
+                    <label style="display: block; color: #5c3a21; font-weight: bold; font-size: 14px; margin-bottom: 5px;">Isi Ulasan:</label>
+                    <textarea rows="4" placeholder="Tuliskan ulasan pengalamanmu makan Kripik Tempe Cak Mul..." style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #e6dab8; background-color: #fcf8f2; font-size: 14px; color: #5c3a21; outline: none; resize: vertical;"></textarea>
+                </div>
+
+                <!-- Tombol Kirim -->
+                <button type="submit" style="background-color: #59351a; color: #f5ebd7; border: none; padding: 12px 25px; font-weight: bold; border-radius: 8px; cursor: pointer; font-size: 14px; transition: 0.2s;">
+                    Kirim Ulasan 🚀
+                </button>
+
+            </form>
+
+        </main> <!-- Penutup main-content -->
+    
+    </div> <!-- Penutup container -->
 
 </body>
 </html>
