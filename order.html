@@ -1,44 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keripik Tempe Cak Mul</title>
+    <title>Order List - Keripik Tempe Cak Mul</title>
+    <link rel="stylesheet" href="Style/main.css">
 </head>
-<body bgcolor="yellow">
+<body>
+    <div class="container">
+        
+        <!-- SIDEBAR KIRI -->
+         <aside class="sidebar">
+            <h1 class="brand-title">Keripik Tempe Cak Mul</h1>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html">
+                        <span class="icon">🏠</span> Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="our flavour.html">
+                        <span class="icon">🔍</span> Our Flavour
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a href="order.html">
+                        <span class="icon">📋</span> Order List
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="compare.html">
+                        <span class="icon">⚖️</span> Compare Product
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="store profile.html">
+                        <span class="icon">🏪</span> Store Profile
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="vission and mission.html">
+                        <span class="icon">🎯</span> Vission & Mission
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="customer review.html">
+                        <span class="icon">😊</span> Customer Review
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="setting.html">
+                        <span class="icon">⚙️</span> Setting
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <!-- KONTEN UTAMA HALAMAN ORDER -->
+        <main class="main-content">
+            <h1>Detail Pesanan</h1>
+            
+            <div id="order-container">
+                <table class="order-table">
+                    <thead>
+                        <tr>
+                            <th>Nama Produk</th>
+                            <th>Harga Satuan</th>
+                            <th>Jumlah</th>
+                            <th>Subtotal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Keripik Tempe Asin</td>
+                            <td>Rp 15.000</td>
+                            <td>2</td>
+                            <td>Rp 30.000</td>
+                        </tr>
+                        <tr>
+                            <td>Sari Apel</td>
+                            <td>Rp 12.000</td>
+                            <td>1</td>
+                            <td>Rp 12.000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
-<div class="container">
-
-    <aside class="sidebar">
-        <h2 class="brand-title">Keripik Tempe Cak Mul</h2>
-        <ul class="nav-menu">
-            <li class="nav-item active">
-                <a href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="our flavour.html">Our Flavour</a>
-            </li>
-            <li class="nav-item">
-                <a href="Order.html">Order List</a>
-            </li>
-            <li class="nav-item ">
-                <a href="compare.html">Compare Product</a>
-            </li>
-            <li class="nav-item">
-                <a href="store profil.html">Our Fkavour</a>
-            </li>
-            <li class="nav-item">
-                <a href="vission and mission.html">Vission and Mission</a>
-            </li>
-            <li class="nav-item">
-                <a href="customer review.html">Customer Review</a>
-            </li>
-            <li>
-                <a href="setting.html">Setting</a>
-            </li>
-        </ul>
-    </aside>
-</div>
-
+            <div style="margin-top: 20px; text-align: right;">
+                <h2 id="total-bayar" style="color: #59351a;">Total Bayar: Rp 42.000</h2>
+                <button type="button" class="btn-danger">
+                    Hapus Semua Pesanan
+                </button>
+            </div>
+        </main>
+    </div>
 </body>
 </html>
