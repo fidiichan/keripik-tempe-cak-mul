@@ -1,44 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keripik Tempe Cak Mul</title>
+    <title>Setting - Keripik Tempe Cak Mul</title>
+    <link rel="stylesheet" href="Style/main.css">
 </head>
-<body bgcolor="maroon">
-    
-<div class="container">
+<body>
+    <div class="container">
+        
+        <!-- SIDEBAR KIRI -->
+         <aside class="sidebar">
+            <h1 class="brand-title">Keripik Tempe Cak Mul</h1>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html">
+                        <span class="icon">🏠</span> Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="our flavour.html">
+                        <span class="icon">🔍</span> Our Flavour
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="order.html">
+                        <span class="icon">📋</span> Order List
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="compare.html">
+                        <span class="icon">⚖️</span> Compare Product
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="store profile.html">
+                        <span class="icon">🏪</span> Store Profile
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="vission and mission.html">
+                        <span class="icon">🎯</span> Vission & Mission
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="customer review.html">
+                        <span class="icon">😊</span> Customer Review
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a href="setting.html">
+                        <span class="icon">⚙️</span> Setting
+                    </a>
+                </li>
+            </ul>
+        </aside>
 
-    <aside class="sidebar">
-        <h2 class="brand-title">Keripik Tempe Cak Mul</h2>
-        <ul class="nav-menu">
-            <li class="nav-item active">
-                <a href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="our flavour.html">Our Flavour</a>
-            </li>
-            <li class="nav-item">
-                <a href="Order.html">Order List</a>
-            </li>
-            <li class="nav-item ">
-                <a href="compare.html">Compare Product</a>
-            </li>
-            <li class="nav-item">
-                <a href="store profil.html">Our Fkavour</a>
-            </li>
-            <li class="nav-item">
-                <a href="vission and mission.html">Vission and Mission</a>
-            </li>
-            <li class="nav-item">
-                <a href="customer review.html">Customer Review</a>
-            </li>
-            <li>
-                <a href="setting.html">Setting</a>
-            </li>
-        </ul>
-    </aside>
-</div>
+        <!-- KONTEN UTAMA KANAN -->
+        <main class="main-content">
+            <div class="banner-title">
+                Pengaturan Pengguna
+            </div>
 
+            <form class="settings-form">
+                <h3 style="color: #59351a; margin-bottom: 20px;">⚙️ Profil Pengguna</h3>
+                
+                <div class="form-group">
+                    <label>Petugas Kasir:</label>
+                    <input type="text" class="form-control" value="Raisa">
+                </div>
+
+                <div class="form-group">
+                    <label>Instagram:</label>
+                    <input type="email" class="form-control" value="@pusat.kripiktempe.cakmul">
+                </div>
+
+                <div class="form-group">
+                    <label>Nomor Telepon / WhatsApp:</label>
+                    <input type="tel" class="form-control" value="0818534483">
+                </div>
+
+                <div class="form-group">
+                    <label>Alamat Pengiriman Utama:</label>
+                    <textarea rows="3" class="form-control">Jl. Bango Utara l No.8, Bunulrejo, Kec. Blimbing, Kota Malang, Jawa Timur</textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Bahasa:</label>
+                    <select class="form-control">
+                        <option value="id" selected>Bahasa Indonesia</option>
+                        <option value="en">Bahasa Inggris</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn-primary">
+                    Simpan Perubahan
+                </button>
+            </form>
+        </main>
+    </div>
 </body>
 </html>
