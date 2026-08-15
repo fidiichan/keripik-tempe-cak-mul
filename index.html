@@ -1,56 +1,290 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keripik Tempe Cak Mul</title>
+    <link rel="stylesheet" href="Style/main.css">
 </head>
-<body bgcolor="funchia">
+<body>
+    <div class="container">
+        
+        <!-- SIDEBAR KIRI -->
+        <aside class="sidebar">
+            <h1 class="brand-title">Keripik Tempe Cak Mul</h1>
+            <ul class="nav-menu">
+                <li class="nav-item active">
+                    <a href="index.html">
+                        <span class="icon">🏠</span> Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="our flavour.html">
+                        <span class="icon">🔍</span> Our Flavour
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="order.html">
+                        <span class="icon">📋</span> Order List
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="compare.html">
+                        <span class="icon">⚖️</span> Compare Product
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="store profile.html">
+                        <span class="icon">🏪</span> Store Profile
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="vission and mission.html">
+                        <span class="icon">🎯</span> Vission & Mission
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="customer review.html">
+                        <span class="icon">😊</span> Customer Review
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="setting.html">
+                        <span class="icon">⚙️</span> Setting
+                    </a>
+                </li>
+            </ul>
+        </aside>
 
-    <!-- internal css -->
-     
-<div class="container">
-
-    <aside class="sidebar">
-        <h2 class="brand-title">Keripik Tempe Cak Mul</h2>
-        <ul class="nav-menu">
-            <li class="nav-item active">
-                <a href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="our flavour.html">Our Flavour</a>
-            </li>
-            <li class="nav-item">
-                <a href="Order.html">Order List</a>
-            </li>
-            <li class="nav-item ">
-                <a href="compare.html">Compare Product</a>
-            </li>
-            <li class="nav-item">
-                <a href="store profil.html">Our Fkavour</a>
-            </li>
-            <li class="nav-item">
-                <a href="vission and mission.html">Vission and Mission</a>
-            </li>
-            <li class="nav-item">
-                <a href="customer review.html">Customer Review</a>
-            </li>
-            <li>
-                <a href="setting.html">Setting</a>
-            </li>
-        </ul>
-    </aside>
-</div>
-
-    <div class="parent">
-        <div class="container">
-            <div class="icon-kelas">
-
+        <!-- KONTEN UTAMA KANAN -->
+        <main class="main-content">
+            <div class="content-header">
+                <h1>Explore Our Wonderfull of Indonesia</h1>
             </div>
 
-        </div>
+            <!-- Produk Section -->
+            <section class="products-grid">
+                <!-- Produk 1 -->
+                <a href="#productModal1" class="card category-card">
+                    <img src="IMG/usus.jpg" alt="Usus">
+                    <h3 class="product-name">Usus</h3>
+                    <div class="rating">★★★★★</div>
+                </a>
+                
+                <!-- Produk 2 -->
+                <a href="#productModal2" class="card category-card">
+                    <img src="IMG/keripik tempe 1.png" alt="Keripik Singkong Asin">
+                    <h3 class="product-name">Keripik Singkong Asin</h3>
+                    <div class="rating">★★★★★</div>
+                </a>
 
+                <!-- Produk 3 -->
+                <a href="#productModal3" class="card category-card">
+                    <img src="IMG/keripik singkong asin.png" alt="Keripik Tempe Asin">
+                    <h3 class="product-name">Keripik Singkong Asin</h3>
+                    <div class="rating">★★★★★</div>
+                </a>
+
+                <!-- Produk 4 -->
+                <a href="#productModal4" class="card category-card">
+                    <img src="IMG/belut.jpg" alt="Keripik Belut">
+                    <h3 class="product-name">Keripik Belut</h3>
+                    <div class="rating">★★★★★</div>
+                </a>
+
+                <!-- Produk 5 -->
+                <a href="#productModal5" class="card category-card">
+                    <img src="IMG/kentang.jpg" alt="Keripik Kentang">
+                    <h3 class="product-name">Keripik Kentang</h3>
+                    <div class="rating">★★★★★</div>
+                </a>
+
+                <!-- Produk 6 -->
+                <a href="#productModal6" class="card category-card">
+                    <img src="IMG/arum.jpg" alt="Arum Manis">
+                    <h3 class="product-name">Arum Manis</h3>
+                    <div class="rating">★★★★★</div>
+                </a>
+
+                <!-- Produk 7 -->
+                <a href="#productModal7" class="card category-card">
+                    <img src="IMG/ceker.jpg" alt="ceker">
+                    <h3 class="product-name">Ceker</h3>
+                    <div class="rating">★★★★★</div>
+                </a>
+
+                <!-- Produk 8 -->
+                <a href="#productModal8" class="card category-card">
+                    <img src="IMG/salak.jpg" alt="Keripik Salak">
+                    <h3 class="product-name">Keripik Salak</h3>
+                    <div class="rating">★★★★★</div>
+                </a>
+
+                <!-- Produk 9 -->
+                <a href="#productModal9" class="card category-card">
+                    <img src="IMG/blinjo.jpg" alt="Emping Blinjo">
+                    <h3 class="product-name">Emping Blinjo</h3>
+                    <div class="rating">★★★★★</div>
+                </a>
+
+                <!-- Produk 10 -->
+                <a href="#productModal10" class="card category-card">
+                    <img src="IMG/bayam.jpg" alt="Keripik bayam">
+                    <h3 class="product-name">Keripik bayam</h3>
+                    <div class="rating">★★★★★</div>
+                </a>
+            </section>
+        </main>
     </div>
-    
+
+    <!-- POP-UP MODAL 1 -->
+    <div id="productModal1" class="modal">
+        <a href="#" class="modal-overlay"></a>
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <div class="modal-body">
+                <img src="IMG/usus.jpg" alt="Detail Produk">
+                <div class="modal-text">
+                    <h2>Usus</h2>
+                    <p>Diolah secara teliti dari bahan berkualitas tinggi hingga menghasilkan keripik usus yang renyah, gurih, dan bebas aroma amis. Teman sempurna untuk waktu bersantai.</p>
+                </div>
+            </div>    
+        </div>
+    </div>
+
+    <!-- POP-UP MODAL 2 -->
+    <div id="productModal2" class="modal">
+        <a href="#" class="modal-overlay"></a>
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <div class="modal-body">
+                <img src="IMG/keripik tempe 1.png" alt="Detail Produk">
+                <div class="modal-text">
+                    <h2>Keripik Tempe Pedas Asin</h2>
+                    <p>Diproses dari singkong segar berkualitas tinggi yang diiris tipis secara presisi, digoreng hingga garing keemasan, dan disempurnakan dengan taburan garam murni. Menghadirkan cita rasa klasik yang bersih, gurih, dan elegan di setiap gigitan..</p>
+                </div>
+            </div>    
+        </div>
+    </div>
+
+    <!-- POP-UP MODAL 3 -->
+    <div id="productModal3" class="modal">
+        <a href="#" class="modal-overlay"></a>
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <div class="modal-body">
+                <img src="IMG/keripik singkong asin.png" alt="Detail Produk">
+                <div class="modal-text">
+                    <h2>Keripik Singkong Asin</h2>
+                    <p>Dibuat dari tempe berkualitas tinggi yang diiris tipis presisi, dibalut adonan tepung berbumbu tipis, dan digoreng hingga garing sempurna. Disempurnakan dengan taburan garam murni yang menghadirkan cita rasa gurih otentik, renyah, dan bersih.</p>
+                </div>
+            </div>    
+        </div>
+    </div>
+
+    <!-- POP-UP MODAL 4 -->
+    <div id="productModal4" class="modal">
+        <a href="#" class="modal-overlay"></a>
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <div class="modal-body">
+                <img src="IMG/belut.jpg" alt="Detail Produk">
+                <div class="modal-text">
+                    <h2>Keripik belut</h2>
+                    <p>Perpaduan sempurna antara gurihnya daging belut berkualitas dan racikan bumbu asin gurih yang pas. Dibuat tanpa minyak berlebih untuk menjaga kerenyahan maksimal dan aroma gurih yang menggugah selera.</p>
+                </div>
+            </div>    
+        </div>
+    </div>
+
+    <!-- POP-UP MODAL 5 -->
+    <div id="productModal5" class="modal">
+        <a href="#" class="modal-overlay"></a>
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <div class="modal-body">
+                <img src="IMG/kentang.jpg" alt="Detail Produk">
+                <div class="modal-text">
+                    <h2>Keripik Kentang</h2>
+                    <p>Diproses dari kentang pilihan yang diiris tipis presisi, digoreng hingga garing keemasan, dan dibumbui dengan garam murni berkualitas. Menghadirkan kerenyahan yang ringan dan cita rasa asin gurih yang bersih serta elegan.</p>
+                </div>
+            </div>    
+        </div>
+    </div>
+
+    <!-- POP-UP MODAL 6 -->
+    <div id="productModal6" class="modal">
+        <a href="#" class="modal-overlay"></a>
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <div class="modal-body">
+                <img src="IMG/arum.jpg" alt="Detail Produk">
+                <div class="modal-text">
+                    <h2>Keripik Kentang</h2>
+                    <p>Diolah secara teliti hingga menghasilkan arum manis bermutu tinggi dengan tekstur fluffy yang cantik dan manis yang elegan.</p>
+                </div>
+            </div>    
+        </div>
+    </div>
+
+    <!-- POP-UP MODAL 7 -->
+    <div id="productModal7" class="modal">
+        <a href="#" class="modal-overlay"></a>
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <div class="modal-body">
+                <img src="IMG/ceker.jpg" alt="Detail Produk">
+                <div class="modal-text">
+                    <h2>Ceker</h2>
+                    <p>Tekstur garing tanpa tanding dengan cita rasa berkelas.Perpaduan sempurna antara renyahnya kulit ceker pilihan dan sentuhan bumbu asin gurih racikan khas. Dibuat tanpa minyak berlebih untuk menjaga kemurnian rasa, kerenyahan maksimal, dan kelezatan yang bersih di lidah.</p>
+                </div>
+            </div>    
+        </div>
+    </div>
+
+    <!-- POP-UP MODAL 8 -->
+    <div id="productModal8" class="modal">
+        <a href="#" class="modal-overlay"></a>
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <div class="modal-body">
+                <img src="IMG/salak.jpg" alt="Detail Produk">
+                <div class="modal-text">
+                    <h2>Keripik Salak</h2>
+                    <p>Dibuat dari buah salak pilihan segar yang dipanen pada tingkat kematangan terbaik. Diproses secara khusus dengan suhu rendah untuk mempertahankan keaslian warna, aroma khas, serta cita rasa manis-asam segar yang otentik di setiap irisan renyahnya.</p>
+                </div>
+            </div>    
+        </div>
+    </div>
+
+    <!-- POP-UP MODAL 9 -->
+    <div id="productModal9" class="modal">
+        <a href="#" class="modal-overlay"></a>
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <div class="modal-body">
+                <img src="IMG/blinjo.jpg" alt="Detail Produk">
+                <div class="modal-text">
+                    <h2>Emping Blinjo</h2>
+                    <p>Dibuat dari biji melinjo tua berkualitas pilihan yang diproses secara teliti hingga berbentuk pipih sempurna. Digoreng garing dengan balutan garam murni untuk menghadirkan perpaduan rasa gurih, renyah, dan aroma khas melinjo yang kaya di setiap gigitan.</p>
+                </div>
+            </div>    
+        </div>
+    </div>
+
+    <!-- POP-UP MODAL 10 -->
+    <div id="productModal10" class="modal">
+        <a href="#" class="modal-overlay"></a>
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <div class="modal-body">
+                <img src="IMG/bayam.jpg" alt="Detail Produk">
+                <div class="modal-text">
+                    <h2>Keripik bayam</h2>
+                    <p>Diolah secara cermat dari bayam pilihan untuk menghasilkan keripik yang super garing, tidak amis/pahit, dan bebas minyak berlebih. Pilihan camilan sehat dan berkelas yang pas untuk melengkapi momen santai Anda.</p>
+                </div>
+            </div>    
+        </div>
+    </div>
 </body>
 </html>
